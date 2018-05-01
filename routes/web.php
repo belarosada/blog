@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'PublicController@index');
+Route::get('post/{id}', 'PublicController@singlePost');
+Route::get('about', 'PublicController@about');
+Route::get('contact', 'PublicController@contact');
+Route::post('contact', 'PublicController@contactPost');
