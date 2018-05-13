@@ -8,27 +8,27 @@ class PublicController extends Controller
 {
     public function index()
     {
-      return view('welcome');
+        return view('welcome');
     }
 
-  public function singlePost($id)
-  {
-    return view('singlePost');
-  }
+    public function singlePost($id)
+    {
+        return view('singlePost');
+    }
 
-  public function about()
-  {
-    return view('about');
-  }
+    public function about()
+    {
+        return view('about');
+    }
 
-  public function contact()
-  {
-    return view('contact');
-  }
+    public function contact()
+    {
+        return view('contact');
+    }
 
-  public function contactPost()
-  {
-    // code...
-  }
+    public function contactPost()
+    {
+        // code...
+    }
 
 }
